@@ -11,7 +11,7 @@
 [![Build Status](https://travis-ci.org/miw-upm/apaw-microservice-themes-suggestion.svg?branch=develop)](https://travis-ci.org/miw-upm/apaw-microservice-themes-suggestion)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aapaw-microservice-themes-suggestion&metric=alert_status)](https://sonarcloud.io/dashboard?id=es.upm.miw%3Aapaw-microservice-themes-suggestion)
 [![BCH compliance](https://bettercodehub.com/edge/badge/miw-upm/apaw-microservice-themes-suggestion?branch=develop)](https://bettercodehub.com/)
-[![Heroku](https://heroku-badge.herokuapp.com/?app=apaw-microservice-themes-suggestion&root=swagger-ui.html)](https://apaw-microservice-themes-suggestion.herokuapp.com/swagger-ui.html)
+[![Heroku](https://heroku-badge.herokuapp.com/?app=apaw-microservice-themes-sugg&root=swagger-ui.html)](https://apaw-microservice-themes-sugg.herokuapp.com/swagger-ui.html)
 
 ### Tecnologías necesarias
 * Java
