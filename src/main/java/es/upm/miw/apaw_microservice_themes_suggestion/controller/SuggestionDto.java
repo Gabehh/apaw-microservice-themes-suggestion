@@ -1,6 +1,6 @@
 package es.upm.miw.apaw_microservice_themes_suggestion.controller;
 
-import es.upm.miw.apaw_ep_themes.exceptions.BadRequestException;
+import es.upm.miw.apaw_microservice_themes_suggestion.exceptions.BadRequestException;
 
 public class SuggestionDto {
 
