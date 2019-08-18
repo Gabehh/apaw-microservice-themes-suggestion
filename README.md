@@ -1,6 +1,11 @@
 ## [Máster en Ingeniería Web por la Universidad Politécnica de Madrid (miw-upm)](http://miw.etsisi.upm.es)
-## Arquitectura y Patrones para Aplicaciones Web (APAW). API Rest
-> Este proyecto es un apoyo docente de la asignatura. Se quiere mostrar un ejemplo completo de un API-Rest para comprender la arquitectura y su proceso evolutivo
+## Arquitectura y Patrones para Aplicaciones Web (APAW). API Rest with microservices
+> Este proyecto es un apoyo docente de la asignatura. Se quiere mostrar un ejemplo completo de un API-Rest para comprender la arquitectura de los microservicios
+
+## Microservicios
+https://github.com/miw-upm/apaw-microservice-themes-suggestion
+https://github.com/miw-upm/apaw-microservice-themes-user
+https://github.com/miw-upm/apaw-microservice-themes-theme
 
 ### Estado del código
 [![Build Status](https://travis-ci.org/miw-upm/apaw-microservice-themes-suggestion.svg?branch=develop)](https://travis-ci.org/miw-upm/apaw-microservice-themes-suggestion)
@@ -19,15 +24,15 @@
 * MongoDB
 * Heroku
 
-### Crear el proyecto
-1. Descomprimir la plantilla en una carpeta **apaw-ep-_nombre-apellido_**
-1. Cambiar la **id** del **artefacto** en el fichero **pom.xml**
-1. Importar el proyecto mediante **IntelliJ IDEA**
-   1. **Import Project**, y seleccionar la carpeta del proyecto.
-   1. Marcar **Create Project from external model**, elegir **Maven**.
-   1. **Next** … **Finish**.
-1. **Travis-CI**. En el fichero **.travis.yml** cambiar la cuenta de correo
-1. **Sonar**. En el fichero **.travis.yml**, cambiar en nombre de la organización de Sonarcloud 
-y crear la variable de entorno **SONAR** en la cuenta de Travis-CI asociado al proyecto
-1. **Heroku**. En el fichero **Procfile**, cambiar el nombre del *.jar para despliegue
+### Clonar en repositorio en tu equipo mediante consola:
+1. Situarse en una carpeta raíz donde se encuentran los proyectos, mediante la consola:  
+ **>cd %ruta-de-la-carpeta%**
+1. Clonar el repositorio, se visualizará el contenido de la rama por defecto:  
+ **>git clone https://github.com/miw-upm/apaw**
+
+### Importar el proyecto mediante IntelliJ IDEA
+1. **Import Project**, y seleccionar la carpeta del proyecto
+1. Marcar **Create Project from external model**, elegir **Maven**
+1. **Next** … **Finish**
+
 
