@@ -28,7 +28,7 @@
 1. Situarse en una carpeta raíz donde se encuentran los proyectos, mediante la consola:  
  **>cd %ruta-de-la-carpeta%**
 1. Clonar el repositorio, se visualizará el contenido de la rama por defecto:  
- **>git clone https://github.com/miw-upm/apaw**
+ **>git clone https://github.com/miw-upm/apaw-microservice-xxx**
 
 ### Importar el proyecto mediante IntelliJ IDEA
 1. **Import Project**, y seleccionar la carpeta del proyecto
