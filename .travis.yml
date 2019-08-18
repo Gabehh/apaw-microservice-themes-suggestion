@@ -22,3 +22,4 @@ deploy:
     secure: $HEROKU
   on:
     branch: master
+  app: apaw-microservice-themes-sugge

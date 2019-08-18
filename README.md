@@ -3,9 +3,9 @@
 > Este proyecto es un apoyo docente de la asignatura. Se quiere mostrar un ejemplo completo de un API-Rest para comprender la arquitectura de los microservicios
 
 ## Microservicios
-https://github.com/miw-upm/apaw-microservice-themes-suggestion
-https://github.com/miw-upm/apaw-microservice-themes-user
-https://github.com/miw-upm/apaw-microservice-themes-theme
+* https://github.com/miw-upm/apaw-microservice-themes-suggestion
+* https://github.com/miw-upm/apaw-microservice-themes-user
+* https://github.com/miw-upm/apaw-microservice-themes-theme
 
 ### Estado del código
 [![Build Status](https://travis-ci.org/miw-upm/apaw-microservice-themes-suggestion.svg?branch=develop)](https://travis-ci.org/miw-upm/apaw-microservice-themes-suggestion)
