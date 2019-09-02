@@ -50,8 +50,8 @@
         <maven-failsafe-plugin.version>2.21.0</maven-failsafe-plugin.version>
         <!-- JUnit -->
         <junit.platform.version>1.2.0</junit.platform.version>
-        <!-- various -->
-        <swagger.version>2.9.2</swagger.version>
+        <!-- OpenAPI -->
+        <openapi.version>1.1.31</openapi.version>
     </properties>
 
     <dependencies>
@@ -59,6 +59,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
         <!-- Aspect-Oriented Programming -->
         <dependency>
@@ -80,16 +84,11 @@
             <groupId>de.flapdoodle.embed</groupId>
             <artifactId>de.flapdoodle.embed.mongo</artifactId>
         </dependency>
-        <!-- Swagger ======================================================== -->
+        <!-- OpenAPI -->
         <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger2</artifactId>
-            <version>${swagger.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>io.springfox</groupId>
-            <artifactId>springfox-swagger-ui</artifactId>
-            <version>${swagger.version}</version>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-ui</artifactId>
+            <version>${openapi.version}</version>
         </dependency>
 
         <!-- ================ TEST =========================================== -->
